@@ -22,7 +22,7 @@
     "predeploy": "npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "gh-pages -b gh-page-bn -d build",
+    "deploy": "gh-pages -b gh-site -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },

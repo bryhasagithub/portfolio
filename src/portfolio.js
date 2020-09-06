@@ -159,16 +159,50 @@ const workExperiences = {
         "Developed front-end and back-end with MERN Stack - deployed with AWS."
       ]
     },
-    // {
-    //   role: "Developer & Designer",  
-    //   company: "FreeLance",
-    //   companylogo: require("./assets/images/upwork_logo.png"),
-    //   date: "February 2015 – Present",
-    //   descBullets: [
-    //     "Maintain, refactor, and spin up websites for small businesses to improve the local economy.",
-    //     "Worked with: Retromodern USA , Cool Lite, Tiffany’s Nail Salon, Live Love Santa Cruz, Moo Moo Milk Tea, Drop-In"
-    //   ]
-    // },
+    {
+      role: "Developer & Designer",  
+      company: "FreeLance",
+      companylogo: require("./assets/images/upwork_logo.png"),
+      date: "February 2015 – Present",
+      desc: "Work with multiple small businesses as a Freelancer.",
+      descBullets: [
+        "Maintain, refactor, and spin up websites for small businesses to improve the local economy.",
+        "Worked with: Retromodern USA , Cool Lite, Tiffany’s Nail Salon, Live Love Santa Cruz, Moo Moo Milk Tea, Drop-In"
+      ]
+    },
+    {
+      role: "Contract Engineer",  
+      company: "Cool Lite Inc.",
+      companylogo: require("./assets/images/cool-lite.png"),
+      date: "January 2017 – November 2019",
+      desc: "Smart LED Lighting Retrofits Solutions at an industrial level.",
+      descBullets: [
+        "Created an online catalog that features smart LED lighting retrofits/solutions at an industrial level.",
+        "Assisted with onsite consulting for industrial LED lighting needs at places like Intel"
+      ]
+    },
+    {
+      role: "Health, Safety and Tech Coordinator",  
+      company: "iD Tech Camps @ Stanford University",
+      companylogo: require("./assets/images/id_tech.jpg"),
+      date: "June 2016 – August 2016",
+      desc: "A summer computer camp specializing in providing computer technology education to children ages 7 through 19",
+      descBullets: [
+        "Manage and administer all medications to the campers.",
+        "Teach and aid instructors/campers in C++, Java, Python, Photoshop, Illustrator, and web development."
+      ]
+    },
+    {
+      role: "Medical Assistant",  
+      company: "Los Gatos Eye Care",
+      companylogo: require("./assets/images/lgec.png"),
+      date: "November 2013 – June 2016",
+      desc: "An Optometrist office in Los Gatos providing eye care.",
+      descBullets: [
+        "Perform peripheral tests, OCT scans, AR screen, visual acuities, retinal photos, and review of medical health on patients.",
+        "Scribing for doctors during examinations."
+      ]
+    }
   ]
 };
 
