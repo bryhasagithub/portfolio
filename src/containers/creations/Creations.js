@@ -2,7 +2,6 @@ import React from "react";
 import "./Creations.css";
 import CreationsCard from "../../components/creationsCard/CreationsCard";
 import { creationSection } from "../../portfolio";
-import { Fade } from "react-reveal";
 
 export default function Creations() {
   function openUrlInNewTab(url) {
@@ -10,7 +9,6 @@ export default function Creations() {
     win.focus();
   }
   return (
-    <Fade bottom duration={1000} distance="20px">
     <div className="main" id="projects">
       <div className="creation-main-div">
         <div className="creation-header">
@@ -34,6 +32,5 @@ export default function Creations() {
         </div>
       </div>
     </div>
-    </Fade>
   );
 }
