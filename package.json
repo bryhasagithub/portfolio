@@ -1,5 +1,5 @@
 {
-  "homepage": "bryhasagithub.github.io/portfolio",
+  "homepage": "https://bryhasagithub.github.io/portfolio/",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -9,19 +9,20 @@
     "colorthief": "^2.3.0",
     "gh-pages": "^2.1.1",
     "graphql": "^14.5.8",
+    "npm-lifecycle": "^3.1.5",
     "react": "^16.10.2",
     "react-dom": "^16.10.2",
     "react-easy-emoji": "^1.3.0",
     "react-headroom": "^3.0.0",
     "react-reveal": "^1.2.2",
-    "react-scripts": "3.2.0",
+    "react-scripts": "^3.4.3",
     "react-twitter-embed": "3.0.3"
   },
   "scripts": {
     "predeploy": "npm run build",
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "gh-pages -b gh-pages -d build",
+    "deploy": "gh-pages -b gh-page-2 -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
