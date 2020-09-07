@@ -100,22 +100,13 @@ We highly recommend to read through the [Deploying on Github Pages](https://crea
 
 This section guides you to deploy your portfolio on Github pages.
 
-- Navigate to `package.json` and enter your domain name instead of `https://portfolio.js.org/` in `homepage` variable. For example, if you want your site to be `https://<your-username>.github.io/portfolio`, add the same to the homepage section of `package.json`. 
+- Navigate to `package.json` and enter your domain name instead of `https://example-portfolio.js.org/` in `homepage` variable. For example, if you want your site to be `https://<your-username>.github.io/portfolio`, add the same to the homepage section of `package.json`. 
 
 - In short you can also add `/portfolio` to `package.json` as both are exactly same. Upon doing so, you tell `create-react-app` to add the path assets accordingly. 
 
 - Optionally, configure the domain. You can configure a custom domain with GitHub Pages by adding a `CNAME` file to the `public/` folder.
 
 - Follow through the guide to setup GitHub pages from the official CRA docs [here](https://create-react-app.dev/docs/deployment/#github-pages).
-
-#### Deploying to Netlify
-
-You could also host directly with Netlify by linking your own repository.
-
-[![Deploy To Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/bryhasagithub/portfolip)
-
-For more information, read [hosting on Netlify](https://create-react-app.dev/docs/deployment/#netlify).
-
 
 ## Technologies used 🛠️
 
