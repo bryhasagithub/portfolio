@@ -4,7 +4,7 @@ import emoji from "react-easy-emoji";
 const greeting = {
   /* Summary And Greeting Section */
   title: "Bry Nguyen",
-  subTitle: emoji("An enthusiastic Senior Software Engineer 🚀 having the experience of building Web and Mobile applications with technologies like MongoDB, Express, React, Node, AWS and many more!"),
+  subTitle: emoji("An enthusiastic Senior Software Engineer 🚀 having the experience of building Web and Mobile applications with technologies like MongoDB, Express, React, Node, AWS and many more! Currently employed at Glide Apps"),
   resumeLink: "https://drive.google.com/file/d/1aYrWJsZiDB62D8ZyVtnnsVE9pX5oH3y2/view?usp=sharing"
 };
 
@@ -15,7 +15,7 @@ const socialMediaLinks = {
   github: "https://github.com/bryhasagithub",
   linkedin: "https://www.linkedin.com/in/bryhasalinked/",
   gmail: "brynguyen1331@gmail.com",
-  instagram: "https://www.instagram.com/bryhasamiata/"
+  instagram: "https://www.instagram.com/bryhasaninsta/"
 };
 
 // Skills Section
@@ -115,6 +115,17 @@ const workExperiences = {
   viewExperiences: true,
   experience: [
     {
+      role: "Senior Software Engineer",  
+      company: "Glide Apps",
+      companylogo: require("./assets/images/glide-icon.png"),
+      date: "September 2020 – Current",
+      desc: "Build an app from a Google Sheet in five minutes, for free. Glide turns spreadsheets into beautiful, easy-to-use apps.",
+      descBullets: [
+        "Build, modify, fix and collaborate with team members on building a high class code-less app.",
+        "Stack consists of a CRA with Typescript, GCP, and much more."
+      ]
+    },
+    {
       role: "Software Engineer",  
       company: "RaiseMe",
       companylogo: require("./assets/images/raiseme_logo.jpg"),
@@ -171,17 +182,6 @@ const workExperiences = {
       ]
     },
     {
-      role: "Contract Engineer",  
-      company: "Cool Lite Inc.",
-      companylogo: require("./assets/images/cool-lite.png"),
-      date: "January 2017 – November 2019",
-      desc: "Smart LED Lighting Retrofits Solutions at an industrial level.",
-      descBullets: [
-        "Created an online catalog that features smart LED lighting retrofits/solutions at an industrial level.",
-        "Assisted with onsite consulting for industrial LED lighting needs at places like Intel"
-      ]
-    },
-    {
       role: "Health, Safety and Tech Coordinator",  
       company: "iD Tech Camps @ Stanford University",
       companylogo: require("./assets/images/id_tech.jpg"),
@@ -233,30 +233,6 @@ const creationSection = {
       ]
     },
     {
-      title: "Doc Review",
-      subtitle: "Web App that helps physicians screen patients and obtain chief complaints.",
-      image: require("./assets/images/doc-review.png"),
-      footerLink: [
-        { name: "WireFrame", url: "https://xd.adobe.com/view/82a4ddcd-436c-4a9e-82df-2b168435e680/" }
-      ]
-    },
-    {
-      title: "DropIn",
-      subtitle: "A subscription - credit based multi gym Web App",
-      image: require("./assets/images/dropin.png"),
-      footerLink: [
-        { name: "WireFrame", url: "https://xd.adobe.com/view/536f89ce-2a71-4019-981e-604cdc61cf27/screen/7b9fe10b-1751-44d9-8a7c-008b6a223e59" }]
-    },
-    {
-      title: "Car Maintenance Model",
-      subtitle: "An interactive data visualization for when car parts should be maintained.",
-      image: require("./assets/images/car-model.png"),
-      footerLink: [
-        { name: "Code", url: "https://github.com/bryhasagithub/CarMaintenanceModel" },
-        { name: "Website", url: "https://bryhasagithub.github.io/CarMaintenanceModel/" },
-      ]
-    },
-    {
       title: "Fabrix",
       subtitle: "A patient-physician communication platform pitchdeck",
       image: require("./assets/images/fabrix.png"),
@@ -283,6 +259,38 @@ const creationSection = {
       ]
     },
     {
+      title: "Doc Review",
+      subtitle: "Web App that helps physicians screen patients and obtain chief complaints.",
+      image: require("./assets/images/doc-review.png"),
+      footerLink: [
+        { name: "WireFrame", url: "https://xd.adobe.com/view/82a4ddcd-436c-4a9e-82df-2b168435e680/" }
+      ]
+    },
+    {
+      title: "Retromodern USA Website",
+      subtitle: "A redesigned website for a small bespoke company that creates handcrafted car parts.",
+      image: require("./assets/images/retromodern.png"),
+      footerLink: [
+        { name: "Website", url: "https://retromodernusa.com/" },
+      ]
+    },
+    {
+      title: "DropIn",
+      subtitle: "A subscription - credit based multi gym Web App",
+      image: require("./assets/images/dropin.png"),
+      footerLink: [
+        { name: "WireFrame", url: "https://xd.adobe.com/view/536f89ce-2a71-4019-981e-604cdc61cf27/screen/7b9fe10b-1751-44d9-8a7c-008b6a223e59" }]
+    },
+    {
+      title: "Car Maintenance Model",
+      subtitle: "An interactive data visualization for when car parts should be maintained.",
+      image: require("./assets/images/car-model.png"),
+      footerLink: [
+        { name: "Code", url: "https://github.com/bryhasagithub/CarMaintenanceModel" },
+        { name: "Website", url: "https://bryhasagithub.github.io/CarMaintenanceModel/" },
+      ]
+    },
+    {
       title: "Sectional Couch",
       subtitle: "My partner and I made a couch together! We did everything from sketches, CAD, woodworking to even upholstery.",
       image: require("./assets/images/couch-cad.png"),
@@ -298,17 +306,7 @@ const creationSection = {
         { name: "Thingiverse", url: "https://www.thingiverse.com/thing:4039621" },
         { name: "Github Repo", url: "https://github.com/bryhasagithub/3D-printing/tree/master/miata-gauge-cluster" },
       ]
-    },
-    {
-      title: "Retromodern USA Website",
-      subtitle: "A redesigned website for a small bespoke company that creates handcrafted car parts.",
-      image: require("./assets/images/retromodern.png"),
-      footerLink: [
-        { name: "Website", url: "https://retromodernusa.com/" },
-      ]
-    },
-    
-   
+    }
   ]
 };
 
