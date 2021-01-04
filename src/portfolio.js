@@ -5,7 +5,7 @@ const greeting = {
   /* Summary And Greeting Section */
   title: "Bry Nguyen",
   subTitle: emoji("An enthusiastic Senior Software Engineer 🚀 having the experience of building Web and Mobile applications with technologies like MongoDB, Express, React, Node, AWS and many more! Currently employed at Glide Apps"),
-  resumeLink: "https://drive.google.com/file/d/1aYrWJsZiDB62D8ZyVtnnsVE9pX5oH3y2/view?usp=sharing"
+  resumeLink: "https://drive.google.com/file/d/1LIfrNnUVkk-E9-pSez3lRSJjX93xIl9u/view?usp=sharing"
 };
 
 // Social Media Link
