@@ -7,7 +7,7 @@ const greeting = {
     "An enthusiastic Senior Software Engineer having the experience of building Web and Mobile applications with technologies like AWS, GCP, React, Typescript, Node, SQL and many more!"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1LIfrNnUVkk-E9-pSez3lRSJjX93xIl9u/view?usp=sharing",
+    "https://drive.google.com/file/d/1mcIWL1FT1Z4ftokZrHBVDU6uIDgDGzu2/view?usp=sharing",
 }
 
 // Social Media Link
