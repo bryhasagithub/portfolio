@@ -39,7 +39,7 @@ const greeting = {
   /* Your Summary And Greeting Section */
   title: "Hi all I'm Bry",
   subTitle: emoji("A passionate Full Stack Software Developer 🚀"),
-  resumeLink: "https://drive.google.com/file/d/1mcIWL1FT1Z4ftokZrHBVDU6uIDgDGzu2/view?usp=sharing"
+  resumeLink: "https://drive.google.com/file/d/11LtqVj0eRJADzwooV9MrUKkKXAYiDFwM/view?usp=sharing"
 };
 
 const socialMediaLinks = {
